@@ -1,0 +1,16 @@
+{% load static %}
+<div class="card mb-3">
+    <div class="row">
+        <div class="col-4">
+            <img class ="img-fluid rounded-start" src="{% static 'turlar/img/'|add:tur.imageUrl %}" alt="" class="turlar.title">
+        </div>
+        <div class="col-8">
+            <div class="card-body">
+                <h5 class="card-title">{{tur.title}}</h5>
+                <p class="card-text">{{tur.description}}</p>
+
+            </div>
+
+        </div>
+    </div>
+ </div>
